@@ -135,7 +135,7 @@ Para facilitar la interpretación de los resultados, el periodo se divide en tre
 
 ---
 
-# ⚙️ Metodología
+# Metodología
 
 El proyecto sigue un proceso de análisis exploratorio de datos que combina información cinematográfica con indicadores sociales e históricos.
 
