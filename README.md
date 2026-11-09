@@ -1,11 +1,11 @@
-# 🎬 EL ESPEJO DEL MUNDO
+# EL ESPEJO DEL MUNDO
 ### Un viaje por la historia del siglo XX a través del cine y los datos
 
 **Análisis exploratorio de datos (EDA) sobre la representación cinematográfica de las transformaciones sociales, políticas y económicas entre 1919 y 1989.**
 
 ---
 
-## 📖 Sobre el proyecto
+## Sobre el proyecto
 
 ¿Puede el cine convertirse en un reflejo de la sociedad de su época? ¿Es posible identificar las preocupaciones de una generación a través de las historias que aparecen en la gran pantalla?
 
@@ -19,7 +19,7 @@ La idea principal es utilizar el cine como una ventana a la historia: observar q
 
 ---
 
-## 🎯 Objetivos del proyecto
+## Objetivos del proyecto
 
 El objetivo principal es explorar cómo se representan determinadas realidades sociales, políticas y económicas en el cine y cómo evoluciona su presencia a lo largo de diferentes periodos históricos.
 
@@ -34,7 +34,7 @@ Para ello, se plantean los siguientes objetivos:
 
 ---
 
-# 🕰️ Estructura del estudio
+# Estructura del estudio
 
 El proyecto se divide en tres capítulos, cada uno centrado en un contexto histórico diferente.
 
@@ -90,8 +90,7 @@ Esta segunda parte analiza cómo aparecen representadas la guerra, sus consecuen
 |---|---|
 | `life_expectancy` | Evolución de la esperanza de vida y de las condiciones generales de salud. |
 | `infant_mortality` | Mortalidad infantil y condiciones sanitarias y sociales. |
-| `civilian_deaths` | Víctimas civiles de la Segunda Guerra Mundial. |
-| `military_deaths` | Víctimas militares de la Segunda Guerra Mundial. |
+| `civilian_deaths_and_military_deaths` | Víctimas civiles y militares de la Segunda Guerra Mundial. |
 
 **Objetivo del capítulo:** explorar cómo las consecuencias humanas de la guerra, el deterioro de las condiciones de vida y el miedo a una nueva destrucción aparecen representados en el cine de posguerra.
 
@@ -121,10 +120,7 @@ Esta última etapa estudia cómo aparecen representados estos cambios en el cine
 | Indicador | Qué permite analizar |
 |---|---|
 | `female_activity_rate` | Participación de las mujeres en la población activa. |
-| `cannabis` | Evolución del consumo de cannabis. |
-| `cocaine` | Evolución del consumo de cocaína. |
-| `heroin` | Evolución del consumo de heroína. |
-| `anfetaminas` | Evolución del consumo de anfetaminas. |
+| `drug_consume_rate` | Evolución del consumo de drogas (cannabis, cocaína, heroína y anfetaminas). |
 | `divorce_rate_per_1000` | Número de divorcios por cada 1.000 habitantes. |
 
 ### División histórica
@@ -198,7 +194,7 @@ Se utilizan gráficos de líneas, diagramas de dispersión, gráficos de burbuja
 
 ---
 
-# 📊 Herramientas y tecnologías
+# Herramientas y tecnologías
 
 Las principales herramientas utilizadas durante el desarrollo del proyecto son:
 
@@ -215,41 +211,7 @@ Las principales herramientas utilizadas durante el desarrollo del proyecto son:
 
 ---
 
-# 📁 Estructura del proyecto
-
-El proyecto está organizado en diferentes directorios para separar los datos, los análisis y los recursos utilizados.
-
-Una posible representación de su organización es:
-
-```text
-EL_ESPEJO_DEL_MUNDO/
-│
-├── 1_Data/
-│   ├── Raw/
-│   │   ├── IMDb/
-│   │   ├── CMU/
-│   │   └── Social_Data/
-│   │
-│   └── Processed/
-│       ├── Peliculas/
-│       └── Indicadores_Sociales/
-│
-├── 2_Analytics/
-│   ├── EDA_estudio_datos_1919_1939.ipynb
-│   ├── EDA_estudio_datos_1940_1960.ipynb
-│   └── EDA_estudio_datos_1961_1989.ipynb
-│
-├── 3_Resources/
-│   └── ...
-│
-└── README.md
-```
-
-*Nota: el árbol representa una organización orientativa; los nombres y directorios deben ajustarse a la estructura definitiva del repositorio.*
-
----
-
-# 🔎 Consideraciones y limitaciones
+# Consideraciones y limitaciones
 
 Como todo análisis exploratorio, este proyecto presenta algunas limitaciones que deben tenerse en cuenta al interpretar los resultados:
 
@@ -263,7 +225,7 @@ En particular, los datos acumulados de víctimas de la Segunda Guerra Mundial no
 
 ---
 
-# 💡 Conclusiones y propósito final
+# Conclusiones y propósito final
 
 **El espejo del mundo** pretende mostrar cómo el cine puede utilizarse como una herramienta complementaria para explorar la historia y comprender las preocupaciones de las sociedades que lo producen.
 
@@ -279,7 +241,7 @@ Más allá de analizar películas de forma individual, el proyecto busca descubr
 
 ---
 
-## 👨‍💻 Autor
+## Autor
 
 **Proyecto desarrollado por:** Jaime Matea Polo.
 
